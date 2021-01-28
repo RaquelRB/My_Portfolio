@@ -21,7 +21,7 @@ export const AboutMe = () => {
                 </div>
 
                 <div className="col">
-                    <img src="images/profilePhoto.jpg" className="rounded-circle" alt="Profile photo"/>
+                    <img src="images/profilePhoto.jpg" className="rounded-circle" alt="Profile"/>
                 </div>
 
                 <Link

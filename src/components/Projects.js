@@ -25,7 +25,7 @@ export const Projects = () => {
                             </div>
 
                             <div className="col-sm-12 col-md-6">
-                                <img src="images/crazy-crossing1.png" className="card-img" alt="crazy crossign image"/>
+                                <img src="images/crazy-crossing1.png" className="card-img" alt="crazy crossing"/>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ export const Projects = () => {
                             </div></div>
 
                             <div className="col-sm-12 col-md-6">
-                                <img src="images/geekboard1.png" className="card-img" alt="geekboard image"/>
+                                <img src="images/geekboard1.png" className="card-img" alt="geekboard"/>
                             </div>
                         </div>
                     </div>
@@ -68,13 +68,13 @@ export const Projects = () => {
 
                                 <p><strong>Requirements:</strong> Login does not work on some versions of Iphone.</p>
                                 <div className="card-buttons">
-                                <a href="https://bookexchangeweb.netlify.app/" className="btn btn-secondary live-button" rel="noreferrer" rel="noreferrer" target="_blank">See live</a>
-                                <a href="https://github.com/ProjectBookExchange/Project_Book_Exchange_Frontend" className="btn btn-secondary code-button" target="_blank">See code</a>
+                                <a href="https://bookexchangeweb.netlify.app/" className="btn btn-secondary live-button" rel="noreferrer" target="_blank">See live</a>
+                                <a href="https://github.com/ProjectBookExchange/Project_Book_Exchange_Frontend" className="btn btn-secondary code-button" target="_blank" rel="noreferrer">See code</a>
 </div>
                             </div>
 </div>
                             <div className="col-sm-12 col-md-6">
-                                <img src="images/bookexchange1.png" className="card-img" alt="bookexchange image"/>
+                                <img src="images/bookexchange1.png" className="card-img" alt="bookexchange"/>
                             </div>
                         </div>
                     </div>
