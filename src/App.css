@@ -6,9 +6,6 @@
   color: #5eaaa8;
 }
 
-.white-font{
-  color: #f8f1f1
-}
 
 .underline-font{
   text-decoration: underline
@@ -55,6 +52,7 @@
   padding: 50px;
   text-align: left;
   background-color:  #a3d2ca;
+
 }
 
 .textTools-container ul{
@@ -79,11 +77,14 @@
 .projects-container h2{
   padding-top: 50px;
   padding-bottom: 30px;
-  color: #5eaaa8
+  color: #5eaaa8;
+  font-weight: bold;
 }
 
 .projects-container .card{
-  padding: 10px
+  padding: 10px;
+  background-color:  #A3D2CA;
+  border-radius: 12px;
 }
 
 .project-div .card-body{
@@ -96,19 +97,25 @@
 }
 
 .card-img{
-  border: 10px solid#a3d2ca;
+  border: 2px solid white;
   border-radius: 10px;
 }
 
+.card-buttons img{
+  width: 25px
+}
+
 .live-button{
-  background-color: #5eaaa8;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 7px;
   margin-right:10px;
 }
 
 .code-button{
-  background-color: #A3D2CA;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 7px;
   margin-left:10px
@@ -121,6 +128,7 @@
   height: auto;
   padding-top:25px
 }
+
 
 .text-muted p{
   color: white

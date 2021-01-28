@@ -11,7 +11,7 @@ export const Experience = () => {
                         <h2 className="underline-font"> Web Developer Bootcamp by Ironhack </h2>
                         <p>An intensive program of more than 400 hours from October 2020 to December 2020.</p>
 
-                        <ul className="white-font">
+                        <ul>
                             <li>HTML5, CSS3 & Responsive Web Design</li>
                             <li>Fundamentals of Object-oriented programming based on JavaScript</li>
                             <li>Git + GitHub for Version Control</li>
