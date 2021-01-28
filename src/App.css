@@ -2,37 +2,131 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blue-font{
+  color: #5eaaa8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.white-font{
+  color: #f8f1f1
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.underline-font{
+  text-decoration: underline
+}
+
+.scroll-button{
+  background-color: #5eaaa8;
   color: white;
+  border: none;
+  border-radius: 7px;
+  margin-top: 20px
 }
 
-.App-link {
-  color: #61dafb;
+/* About me */
+
+.aboutme-container{
+  background-color: #f8f1f1;
+  padding: 50px;
+  line-height: 1.8rem;
+  padding-bottom: 0px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#line{
+  width: 26px;
+}
+
+.aboutme-container img{
+  width: 15rem;
+}
+
+
+/* Experience */
+
+.experience-container .row{
+  margin: 0px;
+  padding: 0px
+}
+
+.iconTools-div {
+  padding: 40px;
+}
+
+.textTools-div{
+  padding: 50px;
+  text-align: left;
+  background-color:  #a3d2ca;
+}
+
+.textTools-container ul{
+  text-align: left;
+}
+
+.experience-container img{
+  width: 40px
+}
+
+.tools-container img{
+  width: 70px;
+  margin: 15px;
+}
+
+/* Projects */
+
+.projects-container{
+  background-color: #f8f1f1;
+}
+
+.projects-container h2{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: #5eaaa8
+}
+
+.projects-container .card{
+  padding: 10px
+}
+
+.project-div .card-body{
+  text-align: left;
+}
+
+.project-div .card-buttons{
+  text-align: center;
+  margin-top: 20px
+}
+
+.card-img{
+  border: 10px solid#a3d2ca;
+  border-radius: 10px;
+}
+
+.live-button{
+  background-color: #5eaaa8;
+  border: none;
+  border-radius: 7px;
+  margin-right:10px;
+}
+
+.code-button{
+  background-color: #A3D2CA;
+  border: none;
+  border-radius: 7px;
+  margin-left:10px
+}
+
+/* Footer */
+
+.text-muted{
+  background-color: #5eaaa8;
+  height: auto;
+  padding-top:25px
+}
+
+.text-muted p{
+  color: white
+}
+
+footer img{
+  width:30px;
+  margin: 8px
 }
