@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 export const AboutMe = () => {
 
@@ -21,7 +21,7 @@ export const AboutMe = () => {
                 </div>
 
                 <div className="col">
-                    <img src="images/profilePhoto.jpg" className="rounded-circle"/>
+                    <img src="images/profilePhoto.jpg" className="rounded-circle" alt="Profile photo"/>
                 </div>
 
                 <Link
@@ -33,7 +33,7 @@ export const AboutMe = () => {
                       duration={100}
                   ><button className="scroll-button">Discover</button></Link>
 
-            <img src="images/vertical-line.png" id="line"/>
+            <img src="images/vertical-line.png" id="line" alt="Vertical line"/>
 
             </div>
         </div>

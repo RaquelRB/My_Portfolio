@@ -27,24 +27,24 @@ export const Experience = () => {
 
                     <div className="col-12 col-md-6 iconTools-div">
                         <div className=" tools-container col-12">
-                            <img src="images/html5-logo.svg" />
-                            <img src="images/css3-logo.svg" />
-                            <img src="images/bootstrap-logo.svg" />
-                            <img src="images/bulma-logo.svg" />
-                            <img src="images/handlebars-logo.png" />
-                            <img src="images/react-logo.svg" />
+                            <img src="images/html5-logo.svg" alt="html5 logo"/>
+                            <img src="images/css3-logo.svg" alt="css3 logo"/>
+                            <img src="images/bootstrap-logo.svg" alt="bootstrap logo"/>
+                            <img src="images/bulma-logo.svg" alt="bulma logo"/>
+                            <img src="images/handlebars-logo.png" alt="hbs logo"/>
+                            <img src="images/react-logo.svg" alt="react logo"/>
 
-                            <img src="images/JS-logo.svg" />
-                            <img src="images/nodejs-logo.svg" />
-                            <img src="images/express-logo.svg" />
-                            <img src="images/mongodb-logo.svg" />
-                            <img src="images/postman-logo.svg" />
+                            <img src="images/JS-logo.svg" alt="js logo"/>
+                            <img src="images/nodejs-logo.svg" alt="nodejs logo"/>
+                            <img src="images/express-logo.svg" alt="express logo"/>
+                            <img src="images/mongodb-logo.svg" alt="mongodb logo"/>
+                            <img src="images/postman-logo.svg" alt="postman logo"/>
 
-                            <img src="images/git-logo.png" />
-                            <img src="images/github-logo.png" />
+                            <img src="images/git-logo.png" alt="git logo"/>
+                            <img src="images/github-logo.png" alt="github logo"/>
 
-                            <img src="images/heroku-logo.svg" />
-                            <img src="images/netlifylogo.svg" />
+                            <img src="images/heroku-logo.svg" alt="heroku logo"/>
+                            <img src="images/netlifylogo.svg" alt="netlify logo"/>
                         </div>
                         <Link
                       activeClass="active"
