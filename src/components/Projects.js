@@ -79,6 +79,31 @@ export const Projects = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className="container">
+                    <div className="card mb-3">
+                        <div className="row align-items-center">
+                            <div className="col-sm-12 col-md-6 project-div">
+                            <div className="card-body">
+                                <h5 className="text-center"><b>MABA WEB</b></h5>
+                                <hr/>
+                                <p className="working-on"> Not finished yet. Working on it. 💪</p>
+                                <p>MABA is a website that offers interior design services.</p>
+                                <p><strong>Technologies:</strong> ReactJs, styled with CSS and bootstrap, NodeJs, ExpressJs</p>
+
+                                <p><strong>Requirements:</strong> There are no requirements.</p>
+                                <div className="card-buttons">
+                                <a href="https://maba.netlify.app" className="btn btn-secondary live-button" rel="noreferrer" target="_blank">See live <img src="images/seelive.png" alt="See live"/> </a>
+                                <a href="https://github.com/RaquelRB/Project_MABA" className="btn btn-secondary code-button" target="_blank" rel="noreferrer">See code <img src="images/coding-icon.jpg" alt="Coding icon"/></a>
+</div>
+                            </div>
+</div>
+                            <div className="col-sm-12 col-md-6">
+                                <img src="images/maba-project.PNG" className="card-img" alt="MABA project"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 <br/>
 
 

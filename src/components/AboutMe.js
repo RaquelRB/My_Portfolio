@@ -11,17 +11,17 @@ export const AboutMe = () => {
 
                 <div className="col">
 
-                <h1>Hi, I'm <strong className="blue-font">Raquel Robles</strong>.</h1>
-                <h2>Junior Web Developer</h2>
+                <h1 className="trying2">Hi, I'm <strong className="blue-font">Raquel Robles</strong>.</h1>
+                <h2 className="trying2">Junior Web Developer</h2>
 
-                    <p><i>My professional career has focused on the human resources sector, but I have always thought that I should have been a programmer. Since I was little I enjoyed <span className="underline-font">solving any problem</span> that appeared on my computer, browsing about things that I had no idea and wanting to <span className="underline-font">know more</span>.</i></p>
+                    <p className="trying"><i>My professional career has focused on the human resources sector, but I have always thought that I should have been a programmer. Since I was little I enjoyed <span className="underline-font">solving any problem</span> that appeared on my computer, browsing about things that I had no idea and wanting to <span className="underline-font">know more</span>.</i></p>
 
-                    <p><i>I decided to <span className="underline-font">change</span> my course and bet everything on this new path, so I quit my job, signed up for the Ironhack web development bootcamp and my next goal is to find a job in which to continue <span className="underline-font">learning</span>, contributing my great motivation and <span className="underline-font">passion</span> for this world.</i></p>
+                    <p className="trying"><i>I decided to <span className="underline-font">change</span> my course and bet everything on this new path, so I quit my job, signed up for the Ironhack web development bootcamp and my next goal is to find a job in which to continue <span className="underline-font">learning</span>, contributing my great motivation and <span className="underline-font">passion</span> for this world.</i></p>
 
                 </div>
 
                 <div className="col">
-                    <img src="images/profilePhoto.jpg" className="rounded-circle" alt="Profile"/>
+                    <img src="images/profilePhoto.jpg" className="rounded-circle trying" alt="Profile"/>
                 </div>
 
                 <Link
